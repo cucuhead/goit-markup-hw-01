@@ -1,37 +1,39 @@
-header{
-    height:72px;
-    display:flex;
-    padding:10px;
-    margin:3px;
-    font-weight: 500;
-    font-size: 16px;
- font-family: sans-serif;    
-}
-.headerContainer{
-    display:flex;
+header {
+    height: 72px;
+    display: flex;
+    align-items: center;
     flex:1;
     justify-content: space-between;
-    flex-direction: row;
-
+    padding: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    font-family: sans-serif;
 }
-.navcontainer{
-    display:flex;
-    justify-content: space-between;
-    flex-direction: row;
+header a {
+    display: flex;
+    align-items: center;
 }
 
- nav{
-    display:flex;
-    gap:30px;
-    }
+nav {
+    display: flex;
+    gap: 30px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 20px;
+}
 
 ul li {
-  display: inline-block;
-  margin-right: 10px;
-  }
+    display: inline-block;
+}
 
-a{
-    color:black;
+a {
+    color: black;
+    text-decoration: none;
 }
 
 
@@ -85,11 +87,15 @@ button {
     font-family:  sans-serif;
 }
 
+
+
 .sectionTwo{
     font-family: sans-serif;
     color:#2E2F42;
     display:flex;
-    flex: 1 1 auto;
+    justify-content: space-between;
+    flex-direction: row;
+    /* flex: 1 1 auto; */
     gap:10px;
     padding:10px;
     margin:3px;
@@ -98,17 +104,43 @@ button {
     display:flex;
     justify-content: flex-start;
     }
+        .sectionTwo ul {
+            display: flex;
+           
+            justify-content: space-between;
+            
+            flex-wrap: wrap;
+           
+            list-style: none;
+           
+            padding: 0;
+          
+        }
+
+                .sectionTwo li {
+                    width: 23%;
+                 
+                }
 
 .sectionThree {
-flex: 1 1 auto;
-display:flex;
-flex-wrap: wrap;
-gap:80px;
-justify-content: center;
-align-items: center;
-min-height:750px;
-padding:10px;
-background-color:#F4F4FD;
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+   
+    gap: 40px;
+   
+    padding: 10px;
+    background-color: #F4F4FD;
+}
+.sectionThree ul {
+    display: flex;
+    flex-wrap: wrap;
+   
+    gap: 40px;
+    justify-content: center;
+    padding: 0;
+    list-style: none;
    
 }
 
@@ -125,19 +157,19 @@ background-color:#F4F4FD;
 margin:0px;
 }
 
-footer > section{
-    padding:50px;
-    display:flex;
+footer {
+    padding: 50px;
+    display: flex;
     justify-content: flex-start;
     flex-direction: column;
- padding-bottom: 200px;
-  background-color: #2E2F42;
-    
+    padding-bottom: 200px;
+    background-color: #2E2F42;
 }
-footer > section  p{
+
+footer p {
     color: #FFFFFF;
-    width:264px;
-    height:72px;
+    width: 264px;
+    height: 72px;
 }
 
 
