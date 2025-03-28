@@ -91,18 +91,17 @@ main {
   font-family: sans-serif;
 } */
 
-.sectionTwo {
+/* .sectionTwo {
   font-family: sans-serif;
   color: #2e2f42;
   display: flex;
   justify-content: space-between;
   flex-direction: row;
-  /* flex: 1 1 auto; */
-  gap: 10px;
+ gap: 10px;
   padding: 10px;
   margin: 3px;
-}
-.sectionTwo h3 {
+} */
+/* .sectionTwo h3 {
   display: flex;
   justify-content: flex-start;
 }
@@ -120,7 +119,7 @@ main {
 
 .sectionTwo li {
   width: 23%;
-}
+} */
 
 /* .sectionThree {
   display: flex;
@@ -170,4 +169,5 @@ main {
   color: #ffffff;
   width: 264px;
   height: 72px;
+
 } */
